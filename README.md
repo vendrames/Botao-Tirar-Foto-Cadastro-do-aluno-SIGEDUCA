@@ -12,18 +12,32 @@ Este Script foi desenvolvido para otimizar e agilizar o processo de inserção d
 * **Integração Fluida:** O botão se integra visualmente à página de cadastro do SIGEDUCA.
 * **Economia de Tempo:** Reduz as etapas da inserção de foto no cadastro, já que não exige salvamento e upload de arquivos, facilitando o trabalho da secretaria escolar.
 
+## 🖼️ Demonstração da Interface
+
+Veja como o botão se integra ao sistema e seu funcionamento
+:
+
+<figure>
+  <img src="https://github.com/user-attachments/assets/fe2a0e97-34d3-4be5-a8a9-6b8b98691c81" alt="Botão Tirar Foto" width="100%">
+  <figcaption align="center"><em>Figura 1: Demonstração do botão "Tirar Foto" integrado ao sistema.</em></figcaption>
+</figure>
+
+<img width="14109" height="7020" alt="Para-colocar-no-github_1_" src="https://github.com/user-attachments/assets/47abd55c-e792-48e3-b1bd-4f1d082b12f8" />
+<img width="14109" height="7055" alt="Para-colocar-no-github_2_" src="https://github.com/user-attachments/assets/b9e02550-49e4-4db2-90b4-4b0798a72774" />
+
 ## 🚀 Como Instalar e Usar
 
 Siga os passos abaixo para adicionar a funcionalidade ao seu navegador:
 
 ### Pré-requisitos
 * Navegador de internet atualizado (Google Chrome, Mozilla Firefox, Edge, etc).
-* Extensão de gerenciamento de scripts,Tampermonkey, instalada no navegador.
+* Extensão de gerenciamento de scripts, Tampermonkey, instalada no navegador.
 
 ### Passo a Passo
 1. Faça o download do arquivo deste repositório clicando em **Code > Download ZIP**, ou clone através do terminal com o comando:
    `git clone https://github.com/vendrames/Botao-Tirar-Foto-Cadastro-do-aluno-SIGEDUCA.git`
-2. Adicione o código principal na sua ferramenta de scripts do navegador.
+2. Adicione o código principal na sua ferramenta de scripts do navegador. Deve ficar como a imagem abaixo.
+   <img width="13832" height="480" alt="Design sem nome(3)" src="https://github.com/user-attachments/assets/08383e5f-91a4-4dee-a9cd-63a8d5bae17a" />
 3. Acesse o sistema SIGEDUCA e navegue até a tela de Cadastro de Aluno.
 4. O novo botão **"Tirar Foto"** já estará disponível na interface.
 5. Clique na imagem ❔ (com ponto de interrogação) e siga o passo a passo para habilitar a câmera no navegador Mozilla.
