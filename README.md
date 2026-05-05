@@ -18,7 +18,7 @@ Siga os passos abaixo para adicionar a funcionalidade ao seu navegador:
 
 ### Pré-requisitos
 * Navegador de internet atualizado (Google Chrome, Mozilla Firefox, Edge, etc).
-* Extensão de gerenciamento de scripts,Tampermonkey, instalada no navegado.
+* Extensão de gerenciamento de scripts,Tampermonkey, instalada no navegador.
 
 ### Passo a Passo
 1. Faça o download do arquivo deste repositório clicando em **Code > Download ZIP**, ou clone através do terminal com o comando:
@@ -37,7 +37,7 @@ Siga os passos abaixo para adicionar a funcionalidade ao seu navegador:
 
 ## 📜 Licença
 
-Este projeto é de código aberto e livre para uso e modificação no contexto escolar e administrativo.
+Este projeto é de código aberto e livre para uso e modificação no contexto escolar/administrativo.
 
 ---
 Desenvolvido por [vendrames](https://github.com/vendrames)
