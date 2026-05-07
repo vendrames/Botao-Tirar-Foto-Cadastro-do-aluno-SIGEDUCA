@@ -48,7 +48,15 @@ Siga os passos abaixo para adicionar a funcionalidade ao seu navegador:
 3. Acesse o sistema SIGEDUCA e navegue até a tela de Cadastro de Aluno.
 4. O novo botão **"Tirar Foto"** já estará disponível na interface.
 5. Clique na imagem ❔ (com ponto de interrogação) e siga o passo a passo para habilitar a câmera no navegador Mozilla.
-6. Reinicie o navegador e o botão estará funcionando adequadamente com sua webcam.
+   
+> **5.1 Configuração específica para o Mozilla Firefox:**<br>
+> **5.1.1.** Na barra de endereços do Firefox, digite `about:config` e aperte Enter.<br>
+> **5.1.2.** Clique no botão para aceitar os riscos e continuar.<br>
+> **5.1.3.** Na barra de pesquisa, cole `media.devices.insecure.enabled`.<br>
+> **5.1.4.** Altere o valor para `true` clicando no botão de alternar.<br>
+> **5.1.5.** Agora, cole `media.getusermedia.insecure.enabled` e mude o valor para `true`.<br>
+
+6. Reinicie o navegador para efetivar as alterações e o botão estará funcionando adequadamente com sua webcam.
    
 ## 🛠️ Tecnologias Utilizadas
 
