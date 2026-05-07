@@ -66,7 +66,7 @@ Siga os passos abaixo para adicionar a funcionalidade ao seu navegador:
 
 ## 📜 Licença
 
-Este projeto é de código aberto e livre para uso e modificação no contexto escolar/administrativo.
+Este Script é de código aberto e livre para uso e modificação no contexto escolar/administrativo.
 
 ---
 Desenvolvido por [vendrames](https://github.com/vendrames)
