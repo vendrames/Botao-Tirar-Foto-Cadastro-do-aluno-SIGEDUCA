@@ -22,9 +22,16 @@ Veja como o botão se integra ao sistema e seu funcionamento
   <figcaption align="center"><em>Figura 1: Demonstração do botão "Tirar Foto" integrado ao sistema.</em></figcaption>
 </figure>
 
-<img width="14109" height="7020" alt="Para-colocar-no-github_1_" src="https://github.com/user-attachments/assets/47abd55c-e792-48e3-b1bd-4f1d082b12f8" />
-<img width="14109" height="7055" alt="Para-colocar-no-github_2_" src="https://github.com/user-attachments/assets/b9e02550-49e4-4db2-90b4-4b0798a72774" />
+<figure>
+  <img width="14109" height="7020" alt="Para-colocar-no-github_1_" src="https://github.com/user-attachments/assets/47abd55c-e792-48e3-b1bd-4f1d082b12f8" />
+  <figcaption align="center"><em>Figura 2: Demonstração da captura de imagem.</em></figcaption>
+</figure>
 
+<figure>  
+<img width="14109" height="7055" alt="Para-colocar-no-github_2_" src="https://github.com/user-attachments/assets/b9e02550-49e4-4db2-90b4-4b0798a72774" />
+  <figcaption align="center"><em>Figura 3: Demonstração da imagem anexada diretamente ao sistema após a captura.</em></figcaption>
+</figure>
+  
 ## 🚀 Como Instalar e Usar
 
 Siga os passos abaixo para adicionar a funcionalidade ao seu navegador:
