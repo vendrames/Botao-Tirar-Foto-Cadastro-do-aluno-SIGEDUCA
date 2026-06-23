@@ -6,6 +6,8 @@
 // @author       Vitor Vendrame
 // @match        *://sigeduca.seduc.mt.gov.br/ged/hwtmgedaluno.aspx?*
 // @icon         https://cdn-icons-png.flaticon.com/64/4181/4181788.png
+// @updateURL    https://raw.githubusercontent.com/vendrames/Botao-Tirar-Foto-Cadastro-do-aluno-SIGEDUCA/refs/heads/main/Bot%C3%A3o%20Tirar%20Foto%20-%20Cadastro%20do%20Aluno.js
+// @downloadURL  https://raw.githubusercontent.com/vendrames/Botao-Tirar-Foto-Cadastro-do-aluno-SIGEDUCA/refs/heads/main/Bot%C3%A3o%20Tirar%20Foto%20-%20Cadastro%20do%20Aluno.js
 // @grant        none
 // ==/UserScript==
 
