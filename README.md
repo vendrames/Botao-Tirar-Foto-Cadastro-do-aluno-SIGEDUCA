@@ -23,22 +23,22 @@ Este script foi desenvolvido para otimizar e agilizar o processo de inserção d
 Veja como o botão se integra ao sistema e seu funcionamento:
 
 <figure>
-  <img src="https://github.com/user-attachments/assets/fe2a0e97-34d3-4be5-a8a9-6b8b98691c81" alt="Botão Tirar Foto" width="100%">
+  <img src="https://github.com/user-attachments/assets/9f2af901-a459-4a7d-a094-a73e2135377a" alt="Botão Tirar Foto" width="100%">
   <figcaption align="center"><em>Figura 1: Botão "Tirar Foto" integrado à tela de cadastro do SIGEDUCA.</em></figcaption>
 </figure>
 
 <figure>
-  <img src="SUBSTITUIR_CAPTURA_MODAL_CAMERA" alt="Modal de captura de foto" width="100%">
+  <img src="https://github.com/user-attachments/assets/9df550c7-3e3e-4140-94eb-1dfd9a764413" alt="Modal de captura de foto" width="100%">
   <figcaption align="center"><em>Figura 2: Modal de captura com câmera ativa e visor com cantos decorativos.</em></figcaption>
 </figure>
 
 <figure>
-  <img src="SUBSTITUIR_CAPTURA_PREVIEW" alt="Preview da foto capturada" width="100%">
+  <img src="https://github.com/user-attachments/assets/2ebc357a-5d63-4960-b7a6-b08c841075be" alt="Preview da foto capturada" width="100%">
   <figcaption align="center"><em>Figura 3: Tela de preview — confirme ou tire novamente antes de salvar.</em></figcaption>
 </figure>
 
 <figure>
-  <img src="SUBSTITUIR_CAPTURA_RESULTADO" alt="Foto aplicada ao cadastro" width="100%">
+  <img src="https://github.com/user-attachments/assets/771c3880-3152-4520-a44c-fe1e241d4576" alt="Foto aplicada ao cadastro" width="100%">
   <figcaption align="center"><em>Figura 4: Foto aplicada diretamente ao campo de imagem do aluno no sistema.</em></figcaption>
 </figure>
 
