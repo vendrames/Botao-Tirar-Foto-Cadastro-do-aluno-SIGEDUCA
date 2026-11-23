@@ -1,4 +1,4 @@
-# 📸 Botão Tirar Foto - Cadastro do Aluno - SIGEDUCA
+# 📸 Botão Tirar Foto - Cadastro do Aluno - SIGEDUCA (v. 4.3)
 
 > Facilitador para capturar, editar e padronizar fotos de alunos diretamente na tela de cadastro do sistema SIGEDUCA, utilizando a webcam.
 
