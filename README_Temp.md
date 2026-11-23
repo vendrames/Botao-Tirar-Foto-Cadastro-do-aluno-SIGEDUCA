@@ -1,12 +1,12 @@
 # 📸 Botão Tirar Foto - Cadastro do Aluno - SIGEDUCA
 
-> Facilitador para capturar e **editar** fotos de alunos diretamente na tela de cadastro do sistema SIGEDUCA, utilizando a webcam.
+> Facilitador para capturar, editar e padronizar fotos de alunos diretamente na tela de cadastro do sistema SIGEDUCA, utilizando a webcam.
 
 ## 📖 Sobre o Script
 
 Este script foi desenvolvido para otimizar e agilizar o processo de inserção da foto do estudante no cadastro de alunos do sistema SIGEDUCA. Ele adiciona um botão **"Tirar foto"** abaixo do botão "Selecionar foto".
 
-Ao clicar, ele habilita a webcam e abre um **poderoso editor de imagens** em um modal expansível. Com ele, é possível capturar a foto do aluno em tempo real, remover o fundo automaticamente com Inteligência Artificial, ajustar a iluminação da imagem e até trocar o fundo para uma cor sólida ou uma imagem padrão da escola — tudo isso **sem precisar tirar a foto em outro aplicativo, salvar no computador e fazer o upload manual**.
+Ao clicar, ele habilita a webcam e abre um **poderoso editor de imagens** em um modal expansível. Com ele, é possível capturar a foto do aluno em tempo real, remover o fundo automaticamente com Inteligência Artificial, ajustar a iluminação, trocar o fundo e **inserir um texto padronizado com o nome da escola e a data** — tudo isso **sem precisar tirar a foto em outro aplicativo, salvar no computador e fazer o upload manual**.
 
 ## 🖼️ Demonstração da Interface
 
@@ -24,12 +24,12 @@ Veja como o botão se integra ao sistema e as ferramentas do novo editor:
 
 <figure>
   <img src="COLOQUE_O_LINK_DA_FOTO_DO_EDITOR_EXPANDIDO_AQUI" alt="Editor de foto expandido" width="100%">
-  <figcaption align="center"><em>Figura 3: Editor completo aberto, mostrando os painéis de recorte por IA, filtros e ajustes de fundo.</em></figcaption>
+  <figcaption align="center"><em>Figura 3: Editor completo aberto, mostrando os painéis de recorte por IA, filtros, texto e ajustes de fundo.</em></figcaption>
 </figure>
 
 <figure>
-  <img src="COLOQUE_O_LINK_DA_FOTO_DO_FUNDO_ALTERADO_AQUI" alt="Foto com fundo alterado" width="100%">
-  <figcaption align="center"><em>Figura 4: Exemplo de foto com o fundo removido e substituído por uma imagem da escola.</em></figcaption>
+  <img src="COLOQUE_O_LINK_DA_FOTO_DO_TEXTO_E_FUNDO_AQUI" alt="Foto com fundo e texto alterados" width="100%">
+  <figcaption align="center"><em>Figura 4: Exemplo de foto com o fundo removido e o texto automático (Escola + Data) inserido no canto inferior.</em></figcaption>
 </figure>
 
 ## ✨ Ferramentas Disponibilizadas
@@ -38,8 +38,8 @@ O editor conta com uma interface expansível e uma barra lateral retrátil. Abai
 
 ### 1. Captura e Interface (Básico)
 * **Captura em Tempo Real:** Acesso à webcam do dispositivo diretamente pelo navegador.
+* **Espelhamento (Flip):** Permite inverter a foto horizontalmente clicando na imagem ou no botão "Espelhar".
 * **Efeito de Flash:** Feedback visual no momento da captura, simulando o disparo de uma câmera.
-* **Correção de Espelhamento:** O visor exibe a imagem espelhada (como um espelho), mas a foto salva é corrigida automaticamente para a orientação correta.
 * **Barra Lateral Retrátil:** Uma seta na divisória permite ocultar os painéis de edição para focar apenas na foto.
 
 ### 2. Ajustes de Recorte (Inteligência Artificial)
@@ -53,7 +53,11 @@ O editor conta com uma interface expansível e uma barra lateral retrátil. Abai
 * **Contraste:** Destaca as diferenças entre as áreas claras e escuras.
 * **Saturação:** Aumenta ou diminui a intensidade das cores da foto do aluno.
 
-### 4. Troca de Fundo
+### 4. Texto na Foto
+* **Preenchimento Automático:** O script puxa automaticamente o código e nome da escola do cabeçalho do SIGEDUCA e insere a data atual (ex: 15873 - EE 13 DE MAIO - 23/11/2026).
+* **Personalização:** Permite editar o texto, escolher a cor (branco ou preto com contorno de segurança), a orientação (horizontal ou vertical) e a posição (os 4 cantos da foto).
+
+### 5. Troca de Fundo
 * **Fundo por Imagem:** Permite carregar uma imagem (ex: brasão, quadro negro, fundo desfocado) e ajustar sua **escala**, **posição (X/Y)** e o modo de **encaixe** (Preencher, Conter ou Esticar).
 * **Fundo por Cor Sólida:** Seletor de cores nativo para aplicar fundos lisos (ex: branco oficial, azul, cinza).
 
@@ -68,14 +72,13 @@ Siga os passos abaixo para adicionar a funcionalidade ao seu navegador:
 * Extensão de gerenciamento de scripts [Tampermonkey](https://www.tampermonkey.net/) instalada no navegador.
 
 ### Passo a Passo
-1. Faça o download do arquivo deste repositório clicando em **Code > Download ZIP**, ou clone através do terminal com o comando:
-<pre><code>git clone https://github.com/vendrames/Botao-Tirar-Foto-Cadastro-do-aluno-SIGEDUCA.git</code></pre>
+1. Faça o download do arquivo deste repositório clicando em **Code > Download ZIP**, ou clone através do terminal com o comando: `git clone https://github.com/vendrames/Botao-Tirar-Foto-Cadastro-do-aluno-SIGEDUCA.git`
 2. Abra o Tampermonkey, clique em **Criar novo script**, cole o conteúdo do arquivo `.user.js` e salve.
    <img src="COLOQUE_O_LINK_DA_FOTO_DO_TAMPERMONKEY_AQUI" width="100%" />
 3. Acesse o sistema SIGEDUCA e navegue até a tela de **Cadastro de Aluno**.
 4. O botão **"Tirar Foto"** já estará disponível abaixo do botão "Selecionar foto".
 5. Clique no botão, posicione o rosto do aluno e clique em **Capturar**.
-6. A tela expandirá. Use as opções laterais para tratar a imagem (remover fundo, ajustar brilho, etc).
+6. A tela expandirá. Use as opções laterais para tratar a imagem (remover fundo, ajustar brilho, inserir texto, etc).
 7. Confirme clicando em **"Usar foto"** — a imagem final será aplicada automaticamente ao cadastro.
 
 > **⚠️ Configuração específica para Mozilla Firefox:**
@@ -95,7 +98,7 @@ Siga os passos abaixo para adicionar a funcionalidade ao seu navegador:
 * **JavaScript (Vanilla):** Lógica de captura, manipulação da interface e integração com o SIGEDUCA.
 * **HTML/CSS:** Estruturação do modal expansível e estilização dos painéis.
 * **WebRTC / MediaDevices API:** Comunicação nativa com a webcam do dispositivo.
-* **Canvas API:** Utilizada para aplicar os filtros (Brilho, Contraste, Saturação) e compor as camadas da imagem final em tempo real.
+* **Canvas API:** Utilizada para aplicar os filtros (Brilho, Contraste, Saturação), compor as camadas da imagem e desenhar o texto final.
 * **[MediaPipe Selfie Segmentation](https://google.github.io/mediapipe/solutions/selfie_segmentation.html):** Rede neural do Google responsável pela remoção inteligente do fundo.
 
 ## 📜 Licença
