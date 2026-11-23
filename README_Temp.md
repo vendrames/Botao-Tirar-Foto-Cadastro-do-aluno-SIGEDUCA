@@ -54,8 +54,8 @@ O editor conta com uma interface expansível e uma barra lateral retrátil. Abai
 * **Saturação:** Aumenta ou diminui a intensidade das cores da foto do aluno.
 
 ### 4. Texto na Foto
-* **Preenchimento Automático:** O script puxa automaticamente o código e nome da escola do cabeçalho do SIGEDUCA e insere a data atual (ex: 15873 - EE 13 DE MAIO - 23/11/2026).
-* **Personalização:** Permite editar o texto, escolher a cor (branco ou preto com contorno de segurança), a orientação (horizontal ou vertical) e a posição (os 4 cantos da foto).
+* **Preenchimento Automático:** O script busca em segundo plano os dados da página de Consulta do Aluno e insere automaticamente o código e nome da escola junto com a data atual (ex: *15873 - EE 13 DE MAIO - 23/11/2026*).
+* **Personalização:** Permite editar o texto livremente, escolher a cor (branco ou preto com contorno de segurança), a orientação (horizontal ou vertical) e a posição (os 4 cantos da foto).
 
 ### 5. Troca de Fundo
 * **Fundo por Imagem:** Permite carregar uma imagem (ex: brasão, quadro negro, fundo desfocado) e ajustar sua **escala**, **posição (X/Y)** e o modo de **encaixe** (Preencher, Conter ou Esticar).
@@ -72,13 +72,16 @@ Siga os passos abaixo para adicionar a funcionalidade ao seu navegador:
 * Extensão de gerenciamento de scripts [Tampermonkey](https://www.tampermonkey.net/) instalada no navegador.
 
 ### Passo a Passo
-1. Faça o download do arquivo deste repositório clicando em **Code > Download ZIP**, ou clone através do terminal com o comando: `git clone https://github.com/vendrames/Botao-Tirar-Foto-Cadastro-do-aluno-SIGEDUCA.git`
+1. Faça o download do arquivo deste repositório clicando em **Code > Download ZIP**, ou clone através do terminal com o comando:
+
+<pre><code>git clone https://github.com/vendrames/Botao-Tirar-Foto-Cadastro-do-aluno-SIGEDUCA.git</code></pre>
+
 2. Abra o Tampermonkey, clique em **Criar novo script**, cole o conteúdo do arquivo `.user.js` e salve.
    <img src="COLOQUE_O_LINK_DA_FOTO_DO_TAMPERMONKEY_AQUI" width="100%" />
 3. Acesse o sistema SIGEDUCA e navegue até a tela de **Cadastro de Aluno**.
 4. O botão **"Tirar Foto"** já estará disponível abaixo do botão "Selecionar foto".
 5. Clique no botão, posicione o rosto do aluno e clique em **Capturar**.
-6. A tela expandirá. Use as opções laterais para tratar a imagem (remover fundo, ajustar brilho, inserir texto, etc).
+6. A tela expandirá. Use as opções laterais para tratar a imagem (remover fundo, ajustar brilho, incluir texto, etc).
 7. Confirme clicando em **"Usar foto"** — a imagem final será aplicada automaticamente ao cadastro.
 
 > **⚠️ Configuração específica para Mozilla Firefox:**
@@ -99,6 +102,7 @@ Siga os passos abaixo para adicionar a funcionalidade ao seu navegador:
 * **HTML/CSS:** Estruturação do modal expansível e estilização dos painéis.
 * **WebRTC / MediaDevices API:** Comunicação nativa com a webcam do dispositivo.
 * **Canvas API:** Utilizada para aplicar os filtros (Brilho, Contraste, Saturação), compor as camadas da imagem e desenhar o texto final.
+* **Fetch API & DOMParser:** Utilizados para buscar os dados da escola na página de consulta em segundo plano.
 * **[MediaPipe Selfie Segmentation](https://google.github.io/mediapipe/solutions/selfie_segmentation.html):** Rede neural do Google responsável pela remoção inteligente do fundo.
 
 ## 📜 Licença
